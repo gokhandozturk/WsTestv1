@@ -53,14 +53,14 @@ namespace WsTestv1
                 {
                     sw.WriteLine(Message);
                 }
-            }
+        }
             else
             {
                 using (StreamWriter sw = File.AppendText(filepath))
                 {
                     sw.WriteLine(Message);
-                }
-            }
+    }
+}
         }
 
     }
